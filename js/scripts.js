@@ -52,7 +52,7 @@ $(document).ready(function () {
 
     $('.table-wrapper').scrollbar();
     $('.faq-wrap').scrollbar();
-    $('.dream-text-wrapper').scrollbar();
+    $('.lk-prizes').scrollbar();
 
     function maskInit() {
         $(".phone-mask").inputmask({
@@ -201,16 +201,6 @@ $(document).ready(function () {
         $('.tab-item').removeClass('active');
         $('.tab-item.' + tab).addClass('active');
     });
-
-    if($('.dropify').length) {
-        $('.dropify').dropify({
-            tpl: {
-                message: '<div class="dropify-message"><p>Нажмите здесь для добавления фото логотипа</p></div>',
-                preview: '<div class="dropify-preview"><span class="dropify-render"></span><div class="dropify-infos"><div class="dropify-infos-inner"><p class="dropify-infos-message">Нажмите здесь для добавления фото логотипа</p></div></div></div>',
-                clearButton: '<button type="button" class="dropify-clear"><img src="img/trash.svg"></button>'
-            }
-        });
-    }
 
     $('.tooltip-link').click(function(e) {
         e.preventDefault();

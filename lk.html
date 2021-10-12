@@ -27,83 +27,182 @@
 					</a>
 					<a href="#!" class="burger"></a>
 					<nav class="menu-links">
-						<a href="index.html" class="menu-link active">Главная</a>
+						<a href="index.html" class="menu-link">Главная</a>
 						<a href="prizes.html" class="menu-link">Призы</a>
 						<a href="winners.html" class="menu-link">Победители</a>
 						<a href="product.html" class="menu-link">Продукт</a>
 						<a href="#!" class="menu-link" target="_blank">Правила</a>
 						<a href="faq.html" class="menu-link">FAQ</a>
-						<a href="lk.html" class="menu-link login-link pop-op" data-popup="auth">Личный кабинет</a>
+						<a href="lk.html" class="menu-link login-link active">Личный кабинет</a>
 					</nav>
 				</div>
 			</header>
-			<section class="main-block">
-				<div class="kv"></div>
-				<div class="main-circle"></div>
+			<section class="inner-page lk-page">
+				<div class="inner-decor"></div>
 				<div class="container">
-					<div class="kv-info">
-						<div class="kv-date">с 21 октября <br class="mobile-visible">по 17 ноября 2021 г.</div>
-						<div class="kv-title1">C JACOBS</div>
-						<div class="kv-title2">мечты сбудутся</div>
-						<div class="kv-title3">наВЕРНяка</div>
-						<div class="kv-text">
-							День <br>рождения
-							<img src="img/logo-verny.svg" alt="">
+					<div class="page-title">Личный кабинет</div>
+					<div class="profile-info">
+						<div class="profile-name">
+							<span>Константинопольский</span>
+							Константин Владимирович
+						</div>
+						<div class="profile-contact profile-phone">8 (9ХХ) ХХХ-ХХ-ХХ</div>
+						<div class="profile-contact-wrapper">
+							<div class="profile-contact profile-mail">konstantinmymail@mail.ru</div>
+							<a href="index.html" class="logout-link link">Выйти</a>
 						</div>
 					</div>
-					<div class="steps">
-						<div class="steps-decor"></div>
-						<div class="step">
-							<div class="step-img">
-								<img src="img/step1.png" alt="">
-							</div>
-							<div class="step-title">покупайте</div>
-							<div class="step-text">кофе JACOBS <br>по карте Верный</div>
+					<div class="mobile-visible">
+						<div class="btn-wrapper">
+							<a href="#!" class="btn pop-op" data-popup="check-upload">Загрузить чек</a>
 						</div>
-						<div class="step">
-							<div class="step-img">
-								<img src="img/step2.png" alt="">
+					</div>
+					<div class="lk-wrapper">
+						<div class="lk-table-wrapper">
+							<div class="lk-table-title-wrapper">
+								<div class="title">Мои чеки</div>
+								<div class="btn-wrapper">
+									<a href="#!" class="btn pop-op" data-popup="check-upload">Загрузить чек</a>
+								</div>
 							</div>
-							<div class="step-title">регистрируйте <br>чеки</div>
-							<div class="step-text"></div>
+							<!-- <div class="lk-table-announce">Загружайте чеки, чтобы выигрывать призы</div>
 							<div class="btn-wrapper">
-								<a href="#!" class="btn pop-op" data-popup="auth">Загрузить чек</a>
+								<a href="#!" class="btn pop-op" data-popup="check-upload">Загрузить чек</a>
+							</div> -->
+							<div class="lk-table table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Фото</th>
+											<th>Дата</th>
+											<th>Статус</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<div class="check-preview">
+													<img src="img/check.png" alt="Чек">
+												</div>
+											</td>
+											<td>21.07.2020</td>
+											<td>Одобрен</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-preview">
+													<img src="img/check.png" alt="Чек">
+												</div>
+											</td>
+											<td>21.07.2020</td>
+											<td>На модерации</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-preview rejected">
+													<img src="img/check.png" alt="Чек">
+												</div>
+											</td>
+											<td>21.07.2020</td>
+											<td><a href="#!" class="rejected-link link pop-op" data-popup="check-rejected">Отклонен</a></td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-preview">
+													<img src="img/check.png" alt="Чек">
+												</div>
+											</td>
+											<td>21.07.2020</td>
+											<td>Одобрен</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-preview">
+													<img src="img/check.png" alt="Чек">
+												</div>
+											</td>
+											<td>21.07.2020</td>
+											<td>На модерации</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-preview rejected">
+													<img src="img/check.png" alt="Чек">
+												</div>
+											</td>
+											<td>21.07.2020</td>
+											<td><a href="#!" class="rejected-link link pop-op" data-popup="check-rejected">Отклонен</a></td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-preview">
+													<img src="img/check.png" alt="Чек">
+												</div>
+											</td>
+											<td>21.07.2020</td>
+											<td>На модерации</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="check-preview">
+													<img src="img/check.png" alt="Чек">
+												</div>
+											</td>
+											<td>21.07.2020</td>
+											<td>На модерации</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
 						</div>
-						<div class="step">
-							<div class="step-img">
-								<img src="img/step3.png" alt="">
+						<div class="lk-table-wrapper">
+							<div class="lk-table-title-wrapper">
+								<div class="title">Мои призы</div>
 							</div>
-							<div class="step-title">мечтайте</div>
-							<div class="step-text">и выигрывайте призы!</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="main-prize-block">
-				<div class="container">
-					<div class="page-title prizes-title">Призы</div>
-					<div class="prizes main-prizes">
-						<div class="prize">
-							<div class="prize-img">
-								<img srcset="img/prizes/50.png 1x, img/prizes/50@2x.png 2x" alt="">
+							<!-- <div class="lk-draw-announce">Здесь появятся выигранные вами призы</div> -->
+							<div class="lk-prizes">
+								<div class="lk-prize prize-card">
+									<div class="lk-prize-img">
+										<img src="img/prizes/card.png" alt="">
+									</div>
+									<div class="lk-prize-info">
+										<div class="lk-prize-date">XX.XX.XXX</div>
+										<div class="lk-prize-name">50 000 баллов <br>на карту лояльности</div>
+										<div class="lk-prize-text">Баллы будут зачислены <br>на карту 0000 0000 0000 0000 <br>до 00.00.2021 года</div>
+									</div>
+								</div>
+								<div class="lk-prize prize-card">
+									<div class="lk-prize-img">
+										<img src="img/prizes/card.png" alt="">
+									</div>
+									<div class="lk-prize-info">
+										<div class="lk-prize-date">XX.XX.XXX</div>
+										<div class="lk-prize-name">50 000 баллов <br>на карту лояльности</div>
+										<div class="btn-wrapper">
+											<a href="#!" class="btn lk-prize-btn pop-op" data-popup="reg-card">Получить</a>
+										</div>
+									</div>
+								</div>
+								<div class="lk-prize prize-50">
+									<div class="lk-prize-img">
+										<img src="img/prizes/50.png" alt="">
+									</div>
+									<div class="lk-prize-info">
+										<div class="lk-prize-date">XX.XX.XXX</div>
+										<div class="lk-prize-name">50 рублей на телефон</div>
+									</div>
+								</div>
+								<div class="lk-prize prize-main">
+									<div class="lk-prize-img">
+										<img src="img/prizes/main-prize.png" alt="">
+									</div>
+									<div class="lk-prize-info">
+										<div class="lk-prize-date">XX.XX.XXX</div>
+										<div class="lk-prize-name">Смартфон последнего <br>поколения</div>
+										<a href="#!" class="lk-prize-link link pop-op" data-popup="how">Как получить?</a>
+									</div>
+								</div>
 							</div>
-							<div class="prize-title">ЕЖЕДНЕВНО</div>
-							<div class="prize-text">50 рублей на телефон</div>
-						</div>
-						<div class="prize">
-							<div class="prize-img">
-								<img srcset="img/prizes/card.png 1x, img/prizes/card@2x.png 2x" alt="">
-							</div>
-							<div class="prize-title">ЕЖЕНЕДЕЛЬНО</div>
-							<div class="prize-text">50 000 баллов <br>на карту лояльности</div>
-						</div>
-						<div class="prize">
-							<div class="prize-img">
-								<img srcset="img/prizes/main-prize.png 1x, img/prizes/main-prize@2x.png 2x" alt="">
-							</div>
-							<div class="prize-title">главный приз</div>
-							<div class="prize-text">смартфон последнего <br>поколения</div>
 						</div>
 					</div>
 				</div>
@@ -239,6 +338,77 @@
                 <div class="popup__inner">
                 	<div class="popup__title">Ваше обращение <br>принято</div>
                     <div class="popup__desc">Ожидайте ответа на указанную <br>электронную почту. Спасибо!</div>
+                    <div class="btn-wrapper">
+						<a href="#!" class="btn js-close-popup">Понятно</a>
+					</div>
+                </div>
+            </div>
+		</div>
+		<div id="reg-card" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup"></a>
+                <div class="popup__inner">
+                    <div class="popup__title">Добавление <br>карты</div>
+                    <div class="popup__desc">Для получения приза добавьте номер карты, по которой была совершена покупка</div>
+                    <div class="popup__error"></div>
+                    <form class="popup-form">
+                    	<div class="input-field">
+                    		<input type="text" name="card" class="card-mask" placeholder="9999-9999-9999-9999" required>
+                    	</div>
+                    	<div class="btn-wrapper">
+							<button class="btn">Сохранить</button>
+						</div>
+                    </form>
+                </div>
+            </div>
+		</div>
+		<div id="reg-card-success" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup"></a>
+                <div class="popup__inner">
+                    <div class="popup__title">Спасибо!</div>
+                    <div class="popup__desc">Баллы будут отправлены <br>до хх.хх.2021 года</div>
+                    <div class="btn-wrapper">
+						<a href="#!" class="btn js-close-popup">Понятно</a>
+					</div>
+                </div>
+            </div>
+		</div>
+		<div id="how" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup"></a>
+                <div class="popup__inner">
+                    <div class="popup__title">Приз Ваш!</div>
+                    <div class="lk-prize-popup-img">
+                    	<img src="img/prizes/main-prize.png" alt="">
+                    </div>
+                    <div class="popup__desc">
+                    	Для получения приза, необходимо будет предоставить нам следующие документы: копию первой страницы паспорта и страницы с пропиской, копию ИНН, адрес проживания и контактный телефон для связи. <br><br>
+                		Ожидайте запрос документов электронную почту, указанную при регистрации на сайте. Либо пишите нам на mail@mail.ru
+                	</div>
+                    <div class="btn-wrapper">
+						<a href="#!" class="btn js-close-popup">Понятно</a>
+					</div>
+                </div>
+            </div>
+		</div>
+		<div id="check-upload" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup"></a>
+                <div class="popup__inner">
+                    <div class="popup__title">Загрузка чека</div>
+                    <div class="iframe-wrap">
+                        <iframe src="https://checkservice.emg.ru/angular/?id=e34362ae-4e27-4212-8bbe-7bc6797bd830&participantId=1&hash=8639098566b4e048f03008fb27d83349&disabledCamerasFoundCheck=1" class="iframe" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+		</div>
+		<div id="check-rejected" class="popup">
+			<div class="popup__wrap">
+				<a href="#!" class="close-popup js-close-popup"></a>
+                <div class="popup__inner">
+                    <div class="popup__title">Чек отклонен</div>
+                    <div class="popup__desc">Этот чек уже был загружен ранее. Один чек можно загружать только один раз.</div>
                     <div class="btn-wrapper">
 						<a href="#!" class="btn js-close-popup">Понятно</a>
 					</div>

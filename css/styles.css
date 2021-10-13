@@ -2981,7 +2981,7 @@ table td:nth-child(3) {
     footer::before {
         left: -100px;
         right: -100px;
-        width: 500px;
+        width: 320px;
         height: 180px;
     }
 

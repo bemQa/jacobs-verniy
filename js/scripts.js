@@ -24,6 +24,19 @@ $(document).ready(function () {
         return false;
     });
 
+    if($('.main-block').length && window.innerWidth > 1000) {
+        $(window).on('scroll load', function () {
+            var top = $(window).scrollTop();
+            var destination = $('#prizes').offset().top-250;
+            if(top >= destination) {
+                $('.anchor[href^="#"]').removeClass('active');
+                $('.anchor[href^="#prizes"]').addClass('active');
+            } else {
+                $('.anchor[href^="#"]').removeClass('active');
+            }
+        });
+    }
+
     function OpenPopup(popupId) {
         $('body').removeClass('no-scrolling');
         $('.popup').removeClass('js-popup-show');
@@ -61,7 +74,7 @@ $(document).ready(function () {
         });
 
         $(".card-mask").inputmask({
-            mask:"9999-9999-9999-9999",
+            mask:"9 999999 999999",
             "clearIncomplete": true
         });
     }

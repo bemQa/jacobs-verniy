@@ -24,15 +24,16 @@ $(document).ready(function () {
         return false;
     });
 
-    if($('.main-block').length && window.innerWidth > 1000) {
+    if($('.main-block').length) {
         $(window).on('scroll load', function () {
             var top = $(window).scrollTop();
             var destination = $('#prizes').offset().top-250;
             if(top >= destination) {
-                $('.anchor[href^="#"]').removeClass('active');
+                $('.anchor[href^="#main"]').removeClass('active');
                 $('.anchor[href^="#prizes"]').addClass('active');
             } else {
-                $('.anchor[href^="#"]').removeClass('active');
+                $('.anchor[href^="#main"]').addClass('active');
+                $('.anchor[href^="#prizes"]').removeClass('active');
             }
         });
     }

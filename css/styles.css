@@ -2708,7 +2708,7 @@ table td:nth-child(3) {
 .step-title {
     font-weight: 900;
     font-size: 20px;
-    line-height: 1;
+    line-height: 22px;
     text-align: center;
     text-transform: uppercase;
     background: linear-gradient(90deg, #B58840 -6.52%, #F2E996 52.31%, #B58840 124.17%);
